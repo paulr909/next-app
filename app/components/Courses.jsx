@@ -6,8 +6,8 @@ const Courses = ({ courses }) => {
       {courses.map((course) => (
         <div key={course.id} className="card">
           <h2>{course.title}</h2>
-          <small>Level: {course.level}</small>
           <p>{course.description}</p>
+          <small>Level: {course.level}</small>
           <Link href={course.link} target="_blank" className="btn">
             Go To Course
           </Link>

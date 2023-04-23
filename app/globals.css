@@ -233,6 +233,11 @@ body {
     margin-bottom: 0;
 }
 
+small {
+    display: block;
+    margin: 1rem 0;
+}
+
 @keyframes spin {
     to {
         transform: rotate(360deg);
