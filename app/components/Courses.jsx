@@ -14,8 +14,8 @@ const Courses = ({ courses }) => {
           </Link>
           <Image
             src={course.image}
-            width={200}
-            height={70}
+            width={course.width}
+            height={course.height}
             alt="logo"
             className="brand-logo"
           />

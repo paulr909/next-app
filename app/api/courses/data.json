@@ -5,7 +5,9 @@
     "description": "Learn Modern Django, Including Models, Views, with Chart JS.",
     "link": "https://bitbucket.org/paulrogers/django-chart-js/src/master/",
     "level": "Intermediate",
-    "image": "chartjs.svg"
+    "image": "chartjs.svg",
+    "width": 150,
+    "height": 150
   },
   {
     "id": 2,
@@ -13,7 +15,9 @@
     "description": "Build an extensive Django app with Unpoly, no need for a JS frontend. ",
     "link": "https://bitbucket.org/paulrogers/django-unpoly/src/master/",
     "level": "Beginner",
-    "image": "vercel.svg"
+    "image": "python.svg",
+    "width": 150,
+    "height": 150
   },
   {
     "id": 3,
@@ -21,7 +25,9 @@
     "description": "Nuxt course that teaches you all of the fundamentals of the Nuxt framework.",
     "link": "https://bitbucket.org/paulrogers/vue-3-pinia/src/master/",
     "level": "All Levels",
-    "image": "terraform.svg"
+    "image": "nuxt.svg",
+    "width": 150,
+    "height": 150
   },
   {
     "id": 4,
@@ -29,7 +35,9 @@
     "description": "Automate Infrastructure on Any Cloud with Terraform, Infrastructure as Code.",
     "link": "https://bitbucket.org/paulrogers/terraform-ubuntu-server/src/master/",
     "level": "Beginner",
-    "image": "terraform.svg"
+    "image": "terraform.svg",
+    "width": 150,
+    "height": 150
   },
   {
     "id": 5,
@@ -37,7 +45,9 @@
     "description": "Basic REST API with FastAPI.",
     "link": "https://bitbucket.org/paulrogers/fastapi-crud-async/src/master/",
     "level": "All Levels",
-    "image": "react.svg"
+    "image": "/fast-api.png",
+    "width": 250,
+    "height": 150
   },
   {
     "id": 6,
@@ -45,6 +55,8 @@
     "description": "Simplify project schematics with the Python package diagrams.",
     "link": "https://bitbucket.org/paulrogers/project-diagrams/src/master/",
     "level": "Beginner",
-    "image": "vercel.svg"
+    "image": "python.svg",
+    "width": 150,
+    "height": 150
   }
 ]
