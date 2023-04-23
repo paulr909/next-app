@@ -28,4 +28,4 @@ npm run start
 yarn start
 ```
 
-## Use api/course/route.js to POST new Courses
+## Use new-course.http to POST new course
