@@ -61,6 +61,16 @@ body {
     text-decoration: none;
 }
 
+.link a {
+    margin: 0 0.5rem 0 0;
+    color: rgba(238, 231, 231, 0.77);
+    text-decoration: none;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
 .links a {
     margin: 0 0.5rem 0 0.5rem;
     color: #fff;

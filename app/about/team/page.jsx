@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const metadata = {
   title: "Our Team",
 };
@@ -11,6 +13,11 @@ const TeamPage = () => {
         Peerless performance, efficiency and developer experience. Next.js is
         trusted by some of the biggest names of the web.
       </p>
+      <div className="link">
+        <Link href={"https://nextjs.org/"} target={"_blank"}>
+          Find out more...
+        </Link>
+      </div>
     </div>
   );
 };

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const metadata = {
   title: "About Us",
 };
@@ -13,6 +15,11 @@ const AboutPage = () => {
         features, and integrating powerful Rust-based JavaScript tooling for the
         fastest builds.
       </p>
+      <div className="link">
+        <Link href={"https://nextjs.org/"} target={"_blank"}>
+          Find out more...
+        </Link>
+      </div>
     </div>
   );
 };
