@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import nextLogo from "../../public/next.svg";
+import nextLogo from "@/public/next.svg";
 
 const Header = () => {
   return (
