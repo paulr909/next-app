@@ -27,3 +27,5 @@ npm run start
 # or
 yarn start
 ```
+
+## Use api/course/route.js to POST new Courses

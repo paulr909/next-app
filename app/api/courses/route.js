@@ -7,7 +7,8 @@ export async function GET(request) {
 }
 
 export async function POST(request) {
-  const { title, description, level, link } = await request.json();
+  const { title, description, level, link, image, width, height } =
+    await request.json();
 
   const newCourse = {
     id: uuidv4(),
@@ -15,6 +16,9 @@ export async function POST(request) {
     description,
     level,
     link,
+    image,
+    width,
+    height,
   };
 
   courses.push(newCourse);

@@ -1,0 +1,13 @@
+### POST non persistant data
+POST http://localhost:3000/api/courses/
+Content-Type: application/json
+
+{
+  "title": "Test Title",
+  "description": "Random text here...",
+  "level": "Intermediate",
+  "link": "https://paul-codes.com",
+  "image": "nuxt.svg",
+  "width": 150,
+  "height": 150
+}
