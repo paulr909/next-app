@@ -1,0 +1,256 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #5b12b4;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  background-color: #312d2d;
+  color: #fff;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.btn {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 3px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #701cda;
+  color: #fff;
+}
+
+.btn-back {
+  display: inline-block;
+  background-color: rgba(49, 45, 45, 0.29);
+  color: rgb(40, 38, 38);
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  text-decoration: none;
+  margin-bottom: 1.3rem;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5b12b4;
+  color: #fff;
+  padding: 1rem 0;
+  border-bottom: 2px solid #fff;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.brand-logo {
+  margin: -7rem 0 0 0;
+  float: right;
+}
+
+.link a {
+  margin: 0 0.5rem 0 0;
+  color: rgba(238, 231, 231, 0.77);
+  text-decoration: none;
+}
+
+.link a:hover {
+  text-decoration: underline;
+}
+
+.links a {
+  margin: 0 0.5rem 0 0.5rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  color: #312d2d;
+  flex-grow: 1;
+  padding: 0.8rem;
+  border: 0;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+
+.search-button {
+  padding: 0.7rem 1rem;
+  margin-left: 0.5rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #701cda;
+}
+
+.search-input:focus,
+.search-button:focus {
+  color: #312d2d;
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 2px rgb(61, 35, 98);
+}
+
+.repos-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.repo-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.repo-list li {
+  margin: 2rem 0;
+}
+
+.repo-list a {
+  display: block;
+  background-color: #fff;
+  color: #333;
+  padding: 1rem;
+  border-radius: 3px;
+  text-decoration: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.repo-list a:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.repo-list h3 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.repo-list p {
+  margin: 0;
+  color: #666;
+  font-size: 1.2rem;
+}
+
+.repo-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  color: #999;
+}
+
+.repo-details span {
+  display: flex;
+  align-items: center;
+}
+
+.repo-details svg {
+  margin-right: 0.5rem;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.spinner {
+  border: 4px solid #fff;
+  border-left-color: #5b12b4;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 1rem;
+  margin: 1rem;
+
+  background-color: #fff;
+  color: #333;
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.card .card-content {
+  margin-top: 1rem;
+}
+
+.card .card-stats {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.card .card-stat {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.card .card-stat svg {
+  margin-right: 0.5rem;
+}
+
+.card .card-stat span {
+  font-size: 0.9rem;
+}
+
+.courses .card h2 {
+  margin-bottom: 0;
+}
+
+small {
+  display: block;
+  margin: 1rem 0;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

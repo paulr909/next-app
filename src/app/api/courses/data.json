@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Django with Chart JS",
+    "description": "Learn Modern Django, Including Models, Views, with Chart JS.",
+    "link": "https://github.com/paulr909/django-chart-js",
+    "level": "Intermediate",
+    "image": "chartjs.svg",
+    "width": 150,
+    "height": 150
+  },
+  {
+    "id": 2,
+    "title": "Django with Unpoly",
+    "description": "Build an extensive Django app with Unpoly, no need for a JS frontend. ",
+    "link": "https://github.com/paulr909/django-unpoly",
+    "level": "Beginner",
+    "image": "python.svg",
+    "width": 150,
+    "height": 150
+  },
+  {
+    "id": 3,
+    "title": "Modern Nuxt JavaScript Framework with Pinia for State Management",
+    "description": "Nuxt course that teaches you all of the fundamentals of the Nuxt framework.",
+    "link": "https://github.com/paulr909/vue-3-pinia",
+    "level": "All Levels",
+    "image": "nuxt.svg",
+    "width": 150,
+    "height": 150
+  },
+  {
+    "id": 4,
+    "title": "Use Terraform to provision an Ubuntu Server",
+    "description": "Automate Infrastructure on Any Cloud with Terraform, Infrastructure as Code.",
+    "link": "https://github.com/paulr909/terraform-ubuntu-server",
+    "level": "Beginner",
+    "image": "terraform.svg",
+    "width": 150,
+    "height": 150
+  },
+  {
+    "id": 5,
+    "title": "Fast API Basics",
+    "description": "Basic REST API with FastAPI.",
+    "link": "https://github.com/paulr909/fastapi-crud-async",
+    "level": "All Levels",
+    "image": "/fast-api.png",
+    "width": 250,
+    "height": 150
+  },
+  {
+    "id": 6,
+    "title": "Create project diagrams with Python",
+    "description": "Simplify project schematics with the Python package diagrams.",
+    "link": "https://github.com/paulr909/project-diagrams",
+    "level": "Beginner",
+    "image": "python.svg",
+    "width": 150,
+    "height": 150
+  }
+]
