@@ -37,6 +37,7 @@ const RepoDirs = ({ name }: RepoProps) => {
       }
     }
 
+    // Check code above
     fetchData().then()
   }, [name])
 
